@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+
+.favicon {
+height: 20px;
+width: 20px;
+
+}
+
+.logo {
+    margin: 0px 10px;
+} 
+
+.navbar-light .navbar-nav .nav-link {
+    color: #BD3B85;
+    margin: 0px 25px;
+   
+    font-family: 'Glory', sans-serif;
+    font-size: 120%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:rgb(67, 66, 68) ;
+    font-weight: bold;
+}
+
+#donate {
+    color: rgb(255, 255, 255);
+    background-color: #BD3B85;
+    margin-right: 15px;
+    border-radius: 14px;
+    font-family: 'Glory', sans-serif;
+ 
+}
+
+#donate:hover {
+    color:rgb(67, 66, 68) ;
+    background-color: aliceblue;
+    border: 2px solid #BD3B85;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    font-weight: bold;
+    font-family: 'Glory', sans-serif;
+}
+
+
+span.dot{
+    color: #BD3B85;
+    font-family: 'Glory', sans-serif;
+}
+
+.carousel-caption {
+    color: white;
+    font-family: 'Glory', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+p.extra {
+   color: rgb(67, 66, 68 );
+   font-family: 'Glory', sans-serif;
+   font-size: large;
+   font-weight: bold;
+}
+
+span.credit {
+    font-family: 'Glory', sans-serif;
+    color: #BD3B85;
+    font-weight: bold;
+}
+
+.card {
+    
+    margin-top: 20px;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 60px;
+    padding: 0px 30px;
+}
+
+
+
+
+ 
+.card {
+    font-family: 'Glory', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+  }
+  
+ 
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+ 
+  .container {
+    padding: 2px 16px;
+  }
+
+
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card-body .card-text {
+color: rgb(67, 66, 68 ) ;
+font-size: medium;
+
+}
+
+.card-body .card-title {
+    font-weight: bold;
+    color: #BD3B85;
+}
+
+
+
+#cardy {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    color: #BD3B85;
+    font-weight: bold;
+}
+
+.head:hover {
+    color:rgb(67, 66, 68 ) ;
+
+}
+
+.card-text {
+    color: rgb(67, 66, 68 );
+}
+
+.nav-item {
+    color: #BD3B85;
+}
+.contact .roww{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 60px;
+}
+
+.contact .roww form{
+    flex:1 1 40rem;
+    background: white;
+    padding: 2rem;
+    margin:1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+}
+
+.contact .roww .map{
+    flex:1 1 40rem;
+    margin:1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    border:2rem solid white ;
+    width:100%;
+}
+
+.contact .roww form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.contact .roww form input, .contact .roww form textarea{
+    padding:1rem 0;
+    margin:1rem 0;
+    font-size: 1.7rem;
+    border-bottom: .1rem solid rgb(67, 66, 68 );
+    text-transform: none;
+    background:none;
+    color:#BD3B85;
+    width: 100%;
+}
+
+.contact .roww form input::placeholder, .contact .roww form textarea::placeholder{
+    text-transform: capitalize;
+    color:rgb(67, 66, 68 );
+}
+
+.contact .roww form input:focus, .contact .roww form textarea:focus{
+    border-color: #BD3B85;
+}
+
+.contact .roww form .inputBox input{
+    width:49%;
+}
+
+.contact .roww form textarea{
+    height: 15rem;
+    resize: none;
+    font-family: 'Glory', sans-serif;
+}
+
+.contact .roww form .btnn{
+    cursor: pointer;
+}
+.contact .box-container .box i{
+    height: 6rem;
+    width:6rem;
+    line-height: 6rem;
+    border-radius: 50%;
+    font-size: 3rem;
+    background:white;
+    color:#BD3B85;
+}
+
+#btnn {
+    color: rgb(255, 255, 255);
+    background-color: #BD3B85;
+    margin-right: 15px;
+    border-radius: 14px;
+    font-family: 'Glory', sans-serif;
+
+}
+
+#btnn:hover {
+
+    color:rgb(67, 66, 68) ;
+    background-color: aliceblue;
+    border: 2px solid #BD3B85;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    font-weight: bold;
+    font-family: 'Glory', sans-serif;   
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    color: rgb(67, 66, 68) ;
+    font-family: 'Glory', sans-serif;
+}

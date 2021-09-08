@@ -1,0 +1,9 @@
+/* media queries*/
+@media (max-width:755px) {
+    .row {
+        
+        display:flex ;
+        justify-content: center;
+    }
+}
+
